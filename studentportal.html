@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujarat Technological University</title>
+    <link rel="stylesheet" href="studentportal.css">
+    <link rel="stylesheet" href="respponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div id="pop_container">
+    <form id="popup">
+        <!--pop up-->
+        <div class="header">
+            Student Profile Registration.
+            <i class="fa-solid fa-xmark" style="font-size:15px;margin-left:15px;color:rgb(255, 254, 254);font-family: 200; border: 1px solid black; border-radius: 50%; background-color: black;width: 25px;height: 20px;justify-content: center;padding-top: 5px;" onclick="removepopup()"></i>
+        </div>
+        <div class="enroll">
+            <h1 style="font-size: 12px;margin-top: 15px;color: gray;"> Enter your GTU Enrollement No. </h1>
+        </div><br>
+        <!--input text-->
+        <div class="input_enrollment">
+        <input type="text" placeholder="Enrollment No" style="padding:3px;margin-top:15px;width:250px;padding:5px;">
+        </div>
+        <!--button-->
+        <div id="button2">
+            <input type="submit"  onclick="removepopup()" value="Cancel"style="padding:8px;color:black;padding-left:15px;padding-right:15px;">
+
+            <input type="submit" value="submit"style="padding:8px;color:black;padding-right:15px;border:2px solid gray;padding-left:15px;background-color:orangered">
+        </div>
+    </div>
+     </form>
+     <br><br>
+
+    <form>
+        <div id="container">
+              <img src="C:\Users\Arvind\Desktop\gujaratimage.jpg" style="width:320px;height: 175px;background-size: cover; border-top-left-radius:5px; border-top-right-radius:5px; background-color: #FF7F50;">
+              <br><br>
+
+
+                 <input type="text" placeholder=" Enrollement No/Username" id="input_text-username-or_Enrollement"style="width: 280px;height:30px;">
+                 <br><br>
+                  <input type="password" placeholder=" Password" id="user_password" style="width: 280px;height:30px;">
+                 <br><br>
+                      <!--relatives-->
+                   <div class="relatives">
+                   <input type="text" placeholder=" Captcha Code"style="width:145px;height:30px;"class="text1">
+
+                   <!--Captcha-->
+                   <p1 style="width:75px;height:26px ;border:1px solid red;padding:2px;padding-top: 1px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" class="text2" > 5244
+                  </p1>
+
+                  <!--refresh-->
+                  <i class="fa-solid fa-arrows-rotate" style="margin-top:9px;font-size: 12px; color:skyblue;" id="changed" onclick="refresh()"></i>
+                   </div><br>
+                   <!--forgot-->
+                    <div class="link">
+                    <a href="C:\Users\Arvind\Desktop\forgot page .html"style="text-decoration:none" id="forgotten">Forgot Password?</a>
+                    </div><br>
+                      
+                    <!--saved-->
+                    <div class="button">
+                    <a href="#" onclick="saved()" id="saved">SIGN IN</a>
+                    </div>
+
+                    <br>
+                   <div id="link">
+                  <a href="javascript:;" id="openpop"  onclick="openpopup()">Create an account</a>
+                   </div>
+                    
+                  <div class="para">
+                  Note : Students who have already registerd themselves for recheck/reassment can use the same username and password to login to this portal.
+                  </div>
+
+                  <div class="link2">
+                  <a href="https://student.gtu.ac.in/assets/StudentProfileGuideGTU.pdf" style="text-decoration: none;color: brown;font-size:20;margin-top:10px;">FAQs</a>
+
+                   <div class="update">
+                  <p style="color: grey;font-size: 12px;margin-left: 12px;margin-top: 15px;">Last Updated on- 07 Mar 2024 - S01</p>
+                   </div>
+
+                  </div>
+                  </form>
+                  <br><br>
+                 </div>
+
+<script src="data_student.js"></script>
+</body>
+</html>
