@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forgot</title>
+    <link rel="stylesheet" href="forgot.css">
+    <link rel="stylesheet" href="forgot responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<body>
+    
+    <div class="container">
+    <form id="forgot_page">
+        <div class="header">
+        <img src="C:\Users\Arvind\Desktop\gtulogo1.png">
+        <div class="namegtuor_remove">
+         <h1>Gujarat  Technology University</h1>
+         <i class="fa-solid fa-xmark" style="font-size:25px;margin-left:25px;color:rgb(0, 0, 0);font-family: 200;width: 25px;height: 20px;justify-content: center;padding-top: 5px;" id="removeforgot" onclick="remove()"></i>
+        </div>
+    </div>
+
+    <div class="enroll">
+        <h1>Enrollment:</h1>
+        <input type="text" placeholder="ENROLLEMENT NO" id="textenroll1">
+    </div>
+
+    <div class="name">
+        <h1>NAME:</h1>
+        <input type="text" placeholder="Name" id="textenroll2">
+    </div>
+
+    <div class="email">
+        <h1>Email:</h1>
+        <input type="email" placeholder="d**********@gmail.com" id="textenroll3">
+    </div>
+
+    <div class="mobile">
+        <h1>Mobile:</h1>
+        <input type="text" placeholder="XXXXXXXX81" id="textenroll4">
+    </div>
+        
+    <h2>If it is not your mobile no. or you want to change your mobile no in GTU databse.  
+        (You will receive you password on this mobile no.)</h2>
+
+        <div class="cheakbox">
+            <input type="checkbox" id="cheakbox">
+            <h1 style="margin-top:10px;">I agree that I have submitted my own detail, the detail are right as per my confirmation. If this information will be wrong then I may be bound with legal affairs or advocate illegal activity. I am also confirmed that I register here for my own re-check/re-assess, if i found with registering other's information, then GTU can claim illegal activity to me. I must use every effort to keep my password safe and should not disclose it to any other person. I shall also not permit, either directly or indirectly, any other person to utilize my User ID or password. GTU not responsible, if any other person misuses the service by logging into your account.</h1>
+        </div><br>
+
+        <div id="click_here">
+        <a href="#" class="Click">Click Here</a>
+        <h1>,To Update Mobile No. and Email-Id by Institute</h1>
+         </div>
+
+         <div class="button">
+            <input type="text" placeholder="Captcha code" class="captcha_code-forgot" style="width:8vw;">
+            <h1>599d</h1><i class="fa-solid fa-arrows-rotate" style="margin: 10px 10px;"></i>
+         </div>
+         </form>
+         </div>
+
+         <script>
+            function remove(){
+             $("#forgot_page").css("visibility", "hidden");
+}
+
+         </script>
+</body>
+</html>

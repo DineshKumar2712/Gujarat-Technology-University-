@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    background-color:#f0f8ff;
+}
+
+#container{
+    text-align: center;
+    /*border: 1px solid black;*/
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    background-color: white;
+    width: 320px;
+    height:600px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left:38%;
+}
+.relatives{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+}
+.text1{
+    margin-right:3px;
+}
+.text2{
+    margin-top:2px;
+    cursor: pointer;
+    font-size:15px;
+    padding-top: 3px;
+    justify-content: center;
+    height: 15px;
+    text-align: center;
+}
+
+.link{
+    text-align: right;
+    font-size: 13px;
+    text-decoration: none;
+    width:93%;
+    cursor: pointer;
+}
+
+.button{
+    cursor: pointer;
+    width: 90%;
+    height: 30px;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color:#FF7F50;
+    border: none;
+    border-radius: 5px;
+}
+#saved{
+    height:25px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.button:hover{
+    background-color:orangered;
+}
+.button a {
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    margin-left:2px;
+}
+#link a{
+    text-decoration: none;
+    font-size:13px;
+    cursor: pointer;
+}
+
+.para{
+    color:grey;
+    font-size: 13px;
+    width: 90%;
+    margin-right: 5px;
+    margin-left: 8px;
+    margin-top: 5px;
+
+}
+
+/*pop up*/
+
+#pop_container{
+    opacity:10;
+    background-color:black;
+    width:100%;
+    height:100%;
+}
+#popup{
+    width: 330px;
+    height:225px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 530px;
+    background-color:whitesmoke;
+    border: 1px solid rgb(0, 0, 0);
+    outline: 2px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    position: absolute;
+    transform: translate(-50%,-50%)scale(1);
+    visibility:hidden;
+    top:22%;
+    left:11%;
+}
+/*.openpop{
+    visibility:visible;
+    top:25%;
+    left:12%;
+    width:100%;
+    text-align: center;
+    transform:translate(-50%,-50%)scale(1);
+}*/
+
+.header{
+    background-color:orangered;
+    padding:18px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 17px;
+    
+}
+
+
+#button2{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 20px;
+    padding:10px;
+    width: 200px;
+    justify-content: space-evenly;
+}
